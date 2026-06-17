@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,3 +28,6 @@ dist-ssr
 *.sln
 *.sw?
 config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
